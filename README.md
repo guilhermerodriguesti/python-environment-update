@@ -4,7 +4,7 @@ Scripts que gera arquivo temporario baseado no `.env.example`
 1. Transforma o arquivo removendo espaços, linhas vazias e comentários;
 2. Ler as variaveis:
      Ex: `APP_NAME=Laravel` será transformado em `APP_NAME=$APP_NAME` 
-     onde o valor da variável `$APP_NAME` 
+     onde o valor da variável `$APP_NAME` será substituida pelos valores do S.O ou export;
 3. Ler as variaveis armazenadas nos deployments do Repositorio.
 4. Cria um arquivo `.env` com os valores exportados
 
